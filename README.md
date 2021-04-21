@@ -3,6 +3,7 @@ This is a simple utility to connect to an Azure EventHub and stream messages to 
 ## Dependencies
 * Azure account
 * Node
+* VS Code (not required but great)
 ## Install
 * Clone this repo and `npm install`
 * Create a `.env` file at the project root and add the following values:
@@ -19,4 +20,4 @@ This is a simple utility to connect to an Azure EventHub and stream messages to 
   npm run build
   node ./dist/index.js
   ```
-* Or, in Visual Studio just press F5
+* Or, in VS Code just press F5
