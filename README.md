@@ -5,8 +5,7 @@ This is a simple utility to connect to an Azure EventHub and stream messages to 
 * Node
 ## Install
 * Clone this repo and `npm install`
-* Create a `.env` file at the project root
-* Add the following values:
+* Create a `.env` file at the project root and add the following values:
   ```
   ehConnectionString=<EVENTHUB_CONNECTIONSTRING>
   ehConsumerGroup=$Default
